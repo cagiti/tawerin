@@ -1,0 +1,26 @@
+# The URL the site will be built for
+base_url = "https://tawerin.cymru"
+
+theme = "zola-clean-blog"
+title = "Tawerin"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+
+author = "Cai Cooper"
+clean_blog_menu = [
+    {url = "$BASE_URL", name = "Cartref"},
+]
+clean_blog_social = [
+    {url = "https://twitter.com/dawnswyrtawerin", icon="fab fa-twitter"},
+]
