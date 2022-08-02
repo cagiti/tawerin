@@ -1,19 +1,19 @@
 // Styling for the navbar
 #mainNav {
+  background-color: #C70901;
+  border-bottom: 2px solid #F81805;
   position: absolute;
-  border-bottom: 1px solid $gray-200;
-  background-color: white;
   @include sans-serif-font;
   .navbar-brand {
     font-weight: 800;
-    color: $gray-800;
+    color: $white;
   }
   .navbar-toggler {
     font-size: 12px;
     font-weight: 800;
     padding: 13px;
     text-transform: uppercase;
-    color: $gray-800;
+    color: $white;
   }
   .navbar-nav {
     > li.nav-item {
@@ -22,11 +22,12 @@
         font-weight: 800;
         letter-spacing: 1px;
         text-transform: uppercase;
+        color: $white
       }
     }
   }
   @media only screen and (min-width: 992px) {
-    background: #C70901;
+    background-color: #C70901;
     border-bottom: 2px solid #F81805;
     .navbar-brand {
       padding: 10px 20px;
