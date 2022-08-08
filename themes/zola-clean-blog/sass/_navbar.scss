@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/static/css?family=Lobster|Belleza');
+
 // Styling for the navbar
 #mainNav {
   background-color: #C70901;
@@ -5,10 +7,13 @@
   position: absolute;
   @include sans-serif-font;
   .navbar-brand {
+    font-family: 'Belleza', cursive;
     font-weight: 800;
     color: $white;
+    margin-left: -105px;
   }
   .navbar-toggler {
+    font-family: 'Belleza', cursive;
     font-size: 12px;
     font-weight: 800;
     padding: 13px;
@@ -18,6 +23,7 @@
   .navbar-nav {
     > li.nav-item {
       > a {
+        font-family: 'Belleza', cursive;
         font-size: 12px;
         font-weight: 800;
         letter-spacing: 1px;
