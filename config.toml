@@ -23,4 +23,6 @@ clean_blog_menu = [
 ]
 clean_blog_social = [
     {url = "https://twitter.com/dawnswyrtawerin", icon="fab fa-twitter"},
+    {url = "https://www.instagram.com/dawnswyrtawerin", icon="fab fa-instagram"},
+    {url = "mailto:dawnswyrtawerin@gmail.com", icon="fa fa-envelope"},
 ]
