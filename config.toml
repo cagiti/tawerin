@@ -16,13 +16,30 @@ build_search_index = false
 highlight_code = false
 
 [extra]
-
 author = "Cai Cooper"
+in_header = true
 clean_blog_menu = [
     {url = "$BASE_URL", name = "Cartref"},
+    {url = "$BASE_URL/perfformiadau", name = "Perfformiadau"},
 ]
 clean_blog_social = [
     {url = "https://twitter.com/dawnswyrtawerin", icon="fab fa-twitter"},
     {url = "https://www.instagram.com/dawnswyrtawerin", icon="fab fa-instagram"},
     {url = "mailto:dawnswyrtawerin@gmail.com", icon="fa fa-envelope"},
 ]
+
+#[languages.cy]
+#title = "Tawerin"
+#
+#[languages.cy.translations]
+#post_title = "Croeso i wefan Tawerin!"
+#
+#[languages.en]
+#title = "Tawerin"
+#
+#[languages.en.translations]
+#post_title = "Welcome to the Tawerin Website!"
+#
+#[translations]
+#title = "Tawerin"
+#post_title = "Croeso i wefan Tawerin!"
