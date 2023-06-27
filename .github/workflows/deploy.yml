@@ -6,12 +6,12 @@ on:
 name: Deploy
 jobs:
   build:
-    name: zbrox/zola-deploy-action
+    name: zola prod deploy
     runs-on: ubuntu-latest
     environment: prod
     steps:
     - uses: actions/checkout@master
-    - name: zbrox/zola-deploy-action
-      uses: zbrox/zola-deploy-action@master
+    - name: zola deploy
+      uses: shalzz/zola-deploy-action@v0.17.2
       env:
-        TOKEN: ${{ secrets.TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.TOKEN }}
