@@ -2,6 +2,7 @@
 base_url = "https://www.tawerin.cymru"
 
 theme = "zola-clean-blog"
+title = "Tawerin"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -28,20 +29,20 @@ clean_blog_social = [
     {url = "mailto:dawnswyrtawerin@gmail.com", icon="fa fa-envelope"},
 ]
 
-[languages.cy]
-title = "Tawerin"
-
-[languages.cy.translations]
-post_title = "Croeso i wefan Tawerin!"
-preface = "Mae Dawnswyr Tawerin o ardal Abertawe. Fel mae’r enw ‘Tawerin’ yn cyfleu - y werin o ardal Tawe (sef Abertawe). Sefydlwyd Tawerin yn 1975 gan gyn-aelodau grŵp dawnsio gwerin mwyaf llwyddiannus y cyfnod, o Goleg Prifysgol Abertawe. Mae’r tîm profiadol hwn yn cwrdd yn wythnosol yng Nghlwb Rygbi Pontarddulais, ac yn cystadlu’n rheolaidd yn yr Eisteddfod Genedlaethol a’r Ŵyl Gerdd Dant. Rydym hefyd yn mwynhau teithio, yn enwedig i Ŵyliau Rhyngwladol, er mwyn rhannu ein traddodiadau â gweddill y byd."
-
-[languages.en]
-title = "Tawerin"
-
-[languages.en.translations]
-post_title = "Welcome to the Tawerin Website!"
-preface = "Mae Dawnswyr Tawerin o ardal Abertawe. Fel mae’r enw ‘Tawerin’ yn cyfleu - y werin o ardal Tawe (sef Abertawe). Sefydlwyd Tawerin yn 1975 gan gyn-aelodau grŵp dawnsio gwerin mwyaf llwyddiannus y cyfnod, o Goleg Prifysgol Abertawe. Mae’r tîm profiadol hwn yn cwrdd yn wythnosol yng Nghlwb Rygbi Pontarddulais, ac yn cystadlu’n rheolaidd yn yr Eisteddfod Genedlaethol a’r Ŵyl Gerdd Dant. Rydym hefyd yn mwynhau teithio, yn enwedig i Ŵyliau Rhyngwladol, er mwyn rhannu ein traddodiadau â gweddill y byd."
-
-[translations]
-post_title = "Croeso i wefan Tawerin!"
-preface = "Mae Dawnswyr Tawerin o ardal Abertawe. Fel mae’r enw ‘Tawerin’ yn cyfleu - y werin o ardal Tawe (sef Abertawe). Sefydlwyd Tawerin yn 1975 gan gyn-aelodau grŵp dawnsio gwerin mwyaf llwyddiannus y cyfnod, o Goleg Prifysgol Abertawe. Mae’r tîm profiadol hwn yn cwrdd yn wythnosol yng Nghlwb Rygbi Pontarddulais, ac yn cystadlu’n rheolaidd yn yr Eisteddfod Genedlaethol a’r Ŵyl Gerdd Dant. Rydym hefyd yn mwynhau teithio, yn enwedig i Ŵyliau Rhyngwladol, er mwyn rhannu ein traddodiadau â gweddill y byd."
+#[languages.cy]
+#title = "Tawerin"
+#
+#[languages.cy.translations]
+#post_title = "Croeso i wefan Tawerin!"
+#preface = "Mae Dawnswyr Tawerin o ardal Abertawe. Fel mae’r enw ‘Tawerin’ yn cyfleu - y werin o ardal Tawe (sef Abertawe). Sefydlwyd Tawerin yn 1975 gan gyn-aelodau grŵp dawnsio gwerin mwyaf llwyddiannus y cyfnod, o Goleg Prifysgol Abertawe. Mae’r tîm profiadol hwn yn cwrdd yn wythnosol yng Nghlwb Rygbi Pontarddulais, ac yn cystadlu’n rheolaidd yn yr Eisteddfod Genedlaethol a’r Ŵyl Gerdd Dant. Rydym hefyd yn mwynhau teithio, yn enwedig i Ŵyliau Rhyngwladol, er mwyn rhannu ein traddodiadau â gweddill y byd."
+#
+#[languages.en]
+#title = "Tawerin"
+#
+#[languages.en.translations]
+#post_title = "Welcome to the Tawerin Website!"
+#preface = "Mae Dawnswyr Tawerin o ardal Abertawe. Fel mae’r enw ‘Tawerin’ yn cyfleu - y werin o ardal Tawe (sef Abertawe). Sefydlwyd Tawerin yn 1975 gan gyn-aelodau grŵp dawnsio gwerin mwyaf llwyddiannus y cyfnod, o Goleg Prifysgol Abertawe. Mae’r tîm profiadol hwn yn cwrdd yn wythnosol yng Nghlwb Rygbi Pontarddulais, ac yn cystadlu’n rheolaidd yn yr Eisteddfod Genedlaethol a’r Ŵyl Gerdd Dant. Rydym hefyd yn mwynhau teithio, yn enwedig i Ŵyliau Rhyngwladol, er mwyn rhannu ein traddodiadau â gweddill y byd."
+#
+#[translations]
+#post_title = "Croeso i wefan Tawerin!"
+#preface = "Mae Dawnswyr Tawerin o ardal Abertawe. Fel mae’r enw ‘Tawerin’ yn cyfleu - y werin o ardal Tawe (sef Abertawe). Sefydlwyd Tawerin yn 1975 gan gyn-aelodau grŵp dawnsio gwerin mwyaf llwyddiannus y cyfnod, o Goleg Prifysgol Abertawe. Mae’r tîm profiadol hwn yn cwrdd yn wythnosol yng Nghlwb Rygbi Pontarddulais, ac yn cystadlu’n rheolaidd yn yr Eisteddfod Genedlaethol a’r Ŵyl Gerdd Dant. Rydym hefyd yn mwynhau teithio, yn enwedig i Ŵyliau Rhyngwladol, er mwyn rhannu ein traddodiadau â gweddill y byd."
