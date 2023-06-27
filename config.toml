@@ -2,7 +2,6 @@
 base_url = "https://www.tawerin.cymru"
 
 theme = "zola-clean-blog"
-title = "Tawerin"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
