@@ -1,0 +1,6 @@
+@media only screen and (min-width: 992px)
+#mainNav {
+    border-bottom: 1px solid transparent;
+    background: #C70901;
+    border-bottom: 2px solid #F81805;
+}
