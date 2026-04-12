@@ -5,7 +5,9 @@ compile_sass = true
 
 title = "Start Bootstrap"
 description = "A blog theme by Start Bootstrap"
-highlight_code = true
+
+[markdown.highlighting]
+theme = "ayu-dark"
 
 taxonomies = [
     {name = "categories", rss = true, paginate_by=5},

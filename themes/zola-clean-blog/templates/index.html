@@ -57,7 +57,7 @@
 
   <!-- Page Header -->
   {% block header %}
-  <header class="masthead" style="background-image: url('{{ get_url(path="/img/home-bg.jpg")}}')">
+  <header class="masthead" style="background-image: url('{{ get_url(path="/img/home-bg-50.png")}}')">
     <div class="overlay">
     </div>
     <div class="container">
@@ -86,17 +86,6 @@
           </div>
           {% endfor %}
         </div>
-
-        <!-- Paginator -->
-        <div class="clearfix">
-          {% if paginator.previous %}
-          <a class="btn btn-primary float-left" href="{{ paginator.previous }}"> &larr; Newer Posts</a>
-          {% endif %}
-          {% if paginator.next %}
-          <a class="btn btn-primary float-right" href="{{ paginator.next }}">Older Posts &rarr;</a>
-          {% endif %}
-        </div>
-
       </div>
     </div>
   </div>

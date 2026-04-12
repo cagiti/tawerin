@@ -4,3 +4,8 @@
     background: #C70901;
     border-bottom: 2px solid #F81805;
 }
+
+@media only screen and (min-width: 992px)
+#postPreview {
+    text-align: center;
+}

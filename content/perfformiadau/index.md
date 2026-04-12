@@ -1,5 +1,5 @@
 +++
 title = "Perfformiadau"
 template = "perfformiadau.html"
-render = false
+render = true
 +++
