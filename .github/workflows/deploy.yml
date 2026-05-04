@@ -1,17 +1,52 @@
+name: Deploy
+
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
-name: Deploy
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   build:
-    name: zola prod deploy
+    name: Build Zola site
     runs-on: ubuntu-latest
-    environment: prod
     steps:
-    - uses: actions/checkout@master
-    - name: zola deploy
-      uses: shalzz/zola-deploy-action@v0.22.1
-      env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Install Zola
+        uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.22.1
+
+      - name: Build site
+        run: zola build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy site
+        id: deployment
+        uses: actions/deploy-pages@v4
