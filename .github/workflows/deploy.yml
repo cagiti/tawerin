@@ -12,6 +12,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: zola deploy
-      uses: shalzz/zola-deploy-action@v0.17.2
+      uses: shalzz/zola-deploy-action@v0.22.1
       env:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
